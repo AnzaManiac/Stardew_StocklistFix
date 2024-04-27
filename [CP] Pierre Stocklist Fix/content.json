@@ -1,0 +1,16 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Makes Stocklist giftable again",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+	  "TargetField": ["897"],
+	  "Entries":
+	  {
+		  "CanBeGivenAsGift": true
+	  }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "$schema": "https://smapi.io/schemas/manifest.json",
+   "Name": "StocklistFix",
+   "Author": "Anzaman",
+   "Version": "1.0.0",
+   "Description": "Bandaid fix for Pierre's stocklist in 1.6.6.",
+   "UniqueID": "Anzaman.StocklistFix.CP",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
